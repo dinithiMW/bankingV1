@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.inetbanking.pageObject.LoginPage;
-
 public class TC_LoginTest_001 extends BaseClass {
 	
 	@Test

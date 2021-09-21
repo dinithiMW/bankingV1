@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass {
 	
-	public String baseURL="demo.guru99.com/v4/index.php";
+	public String baseURL="http://demo.guru99.com/v4/";
 	public String username="mngr266311";
 	public String password="YvuzYtY";
 	public static WebDriver driver;
@@ -15,7 +15,8 @@ public class BaseClass {
 	@BeforeClass
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
-		driver= new ChromeDriver();			
+		driver= new ChromeDriver();
+		
 	}
 	
 	@AfterClass
