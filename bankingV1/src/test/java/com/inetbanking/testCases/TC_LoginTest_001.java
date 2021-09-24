@@ -20,7 +20,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		
 		lp.clickSubmit();
 		
-		if(driver.getTitle().equals("Guru99 Bank ManageHomePage")) {
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
 			Assert.assertTrue(true);
 			logger.info("Login Test Passed");
 		}
