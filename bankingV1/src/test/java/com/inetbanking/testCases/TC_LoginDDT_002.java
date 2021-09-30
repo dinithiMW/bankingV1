@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.inetbanking.pageObjects.LoginPage;
+import com.inetbanking.pageObject.LoginPage;
 import com.inetbanking.utilities.XLUtils;
 
 public class TC_LoginDDT_002 extends BaseClass{

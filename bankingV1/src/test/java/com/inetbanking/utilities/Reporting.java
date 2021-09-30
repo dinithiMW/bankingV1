@@ -64,14 +64,14 @@ public class Reporting extends TestListenerAdapter{
 			
 			if(f.exists())
 			{
-			try {
-				logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
-				} 
-			catch (IOException e) 
-					{
-					e.printStackTrace();
-					}
-			}
+				try {
+					logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
+					} 
+				catch (IOException e) 
+						{
+						e.printStackTrace();
+						}
+				}
 			
 		}
 		
